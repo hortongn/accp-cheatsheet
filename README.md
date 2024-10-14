@@ -685,6 +685,8 @@ AWS Scaling **horizontally**:
 	- EC2 instance.
 	- Elastic Load Balancer.
 	- Route 53.
+- *global instead of region based*
+- *provides location-based web personalization using geolocation headers*
 
 ### Amazon Lightsail
 - It provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites, web applications, and databases in the cloud. Also it provides **preconfigured VPS** that inclouds **everything required to deploy** or create a **DB**.
