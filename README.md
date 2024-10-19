@@ -164,6 +164,7 @@ copying of objects across buckets in different AWS Regions.
 	- Names must be 3 to 63 characters in length.
 	- Names can only contain lowercase letters, numbers and hyphens.
 	- Names cannot be formatted as an IP address.
+        - *bucket names must be globally unique within AWS and can only exist in one region*
 - IAM policies can be written to grant access to Amazon S3 buckets.
 - Amazon S3 storage tier:
 	- **S3 Standard** -> 99.99% SLA -> for data that is accessed less frequently, but requires rapid access when needed.
@@ -271,6 +272,7 @@ AWS Scaling **horizontally**:
 - **Topics**: how you label and group different endpoints that you send messages to
 - **Subscriptions**: the endpoints that a topic sends messages to
 - **Publisher**: the person/alarm/event that gives SNS the message that needs to be sent
+- *Can subscribe to an SNS topic with Lambda and email*
 
 - It is a web service that makes it easy to **set up**, **operate**, and **send notifications** <ins>from the cloud</ins>.
 - SNS supports notifications over multiple transports including *HTTP/HTTPS*, *Email/Email-JSON*, *SQS* and *SMS*.
@@ -326,6 +328,7 @@ AWS Scaling **horizontally**:
 - The **root** EBS volumes are **deleted** on termination by <ins>default</ins>.
 - Extra **non-root** volumes are **not deleted** on termination by <ins>default</ins>.
 - Both non-root and root if launched from an **encrypted** AMI.
+- *Types: SSD, HDD, previous generation*
 
 ### Amazon SageMaker
 - It enables developers and data scientists to quickly and easily **build**, **train**, and **deploy** <ins>machine learning models</ins> at any scale.
@@ -510,7 +513,7 @@ AWS Scaling **horizontally**:
 ### AWS Database SQL type
 - Amazon RDS
 - Amazon Aurora
-- Amazon RedShift
+- Amazon RedShift: *cloud data warehouse*
 
 ### AWS Device Farm
 - It is an **app testing service** that lets you **test** and **interact** with your **Android**, **iOS**, and **web apps** on <ins>many devices</ins> at once, or reproduce issues on a device in real time
@@ -587,6 +590,8 @@ AWS Scaling **horizontally**:
 	- step scaling
 - vertical scaling -> scaling-up
 - horizontal scaling -> scaling-out
+- *can launch resources in multiple availability zones across multiple regions*
+- *can launch resources in multiple availability zones within a region*
 
 ### AWS CloudHSM
 - Is a **cloud-based hardware security module** (HSM) that allows you to easily <ins>add secure key storage</ins> and <ins>high performance crypto operations</ins> to your AWS applications.
