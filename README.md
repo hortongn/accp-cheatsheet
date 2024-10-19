@@ -575,6 +575,10 @@ AWS Scaling **horizontally**:
 	- requests
 	- the uptime
 	- any additional storage of backup
+- *Multi-AZ: maintains standby replicas of RDS instances in different availability zones*
+- *Provides automatic backup and software patching*
+- *customer responsible for managing OS and configuration*
+- *The provider handles maintenance tasks*
 
 ### AWS Auto Scaling Group
 - **Scaling Policy** determine when, if, and how the ASG scales and shrinks:
@@ -612,6 +616,7 @@ AWS Scaling **horizontally**:
 - The volume gateway represents the family of gateways that *support* **block-based volumes**, previously referred to as gateway-cached and gateway-stored modes. it allows you to <ins>use block-based volumes on-premise</ins> that are then **asynchronously** backed up to Amazon **S3**.
 	- **Stored Volumes mode**:  the *entire dataset is stored on-site* and is **asynchronously** backed up to S3 (EBS point-in-time snapshots). Snapshots are incremental and compressed
 	- **Cached Volume mode**: the *entire dataset is stored on S3* and a cache of the *most frequently accessed* data is cached on-site.
+- *back up your on-premise data seamlessly*
 
 ### AWS Step Functions
 - It lets you **coordinate** *multiple AWS services* into **serverless** workflows so you can build and update apps quickly.
@@ -753,6 +758,7 @@ AWS Scaling **horizontally**:
 ### AWS Service Catalog
 - It can be used to <ins>create and manage a selection of AWS services</ins> that are approved for use on AWS.
 - These IT services **can include everything** from virtual machine images, servers, software, and databases to complete multi-tier application architectures.
+- *create a catalog of resources to allow quick deployment of website*
 
 ### AWS Managed Services
 - It manages the **daily operations** of your AWS infrastructure in alignment with **ITIL** processes and provides a **baseline integration** with IT Service Management (**ITSM**) tools such as the ServiceNow platform.
@@ -827,6 +833,7 @@ AWS Scaling **horizontally**:
 
 ### AWS OpsWorks
 - It is a service that allows you to host your own Puppet Enterprise infrastructure.
+- *a configuration management service that helps you configure and operate applications in a cloud enterprise by using Puppet or Chef*
 
 ### AWS Partner Network (APN)
 - It is a global community of partners that leverages programs, expertise, and resources to build, market, and sell customer offerings.
