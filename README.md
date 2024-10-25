@@ -475,6 +475,7 @@ AWS Scaling **horizontally**:
 	-  "Create an AWS Organization configuration linking the accounts"
 	-  "Setup consolidated billing between the accounts"
 - Volume pricing discounts applied **across multiple accounts**.
+- *Centrally manage security and compliance controls across multiple AWS accounts*
 
 ### Popular HTTP code
 - A HTTP 200 codes: successful
@@ -669,6 +670,7 @@ AWS Scaling **horizontally**:
 	- Domain Name registry.
 	- DNS resolution.
 	- Health checking of resources.
+   	- *Traffic flow*
 - **Routing policies** include:
 	- Simple.
 	- Weighted.
