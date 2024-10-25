@@ -253,6 +253,8 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 - It is possible to have **inbound** and **outbound** rules in a security group
 - It operates on EC2 instance level
 - Not used in S3
+- *Traffic is automatically allowed outbound to respond to an allowed inbound rule*
+- *rules are applied to only specify things allowed*
 
 ### AWS Internet Gateway
 - Do not have `allow` or `deny` rules
@@ -408,6 +410,9 @@ AWS Scaling **horizontally**:
 - You create a virtual private gateway and *attach* it to the **VPC** from which you want to create the VPN connection.
 - <ins>NAT devices and firewalls</ins> are **not** required for an *AWS managed VPN*.
 - A **customer gateway** is a physical device or software application on **your side** of the VPN connection.
+
+### AWS VPC
+- *allows a customer to mirror their corporate network within AWS with the same types of topographies*
 
 ### VPC peering connection
 - If you have **more than one AWS account**, you can **peer** the VPCs across those accounts to create a <ins>file sharing network</ins>.
