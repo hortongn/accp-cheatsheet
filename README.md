@@ -260,6 +260,7 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 - Do not have `allow` or `deny` rules
 - It allows public traffic to access VPC resources
 - It operates on VPC level
+- *Encrypts data at rest by default*
 
 ### AWS Scalability
 AWS Scaling **vertically**:
@@ -293,6 +294,7 @@ AWS Scaling **horizontally**:
 - Inspector is an *automated security assessment* service that helps improve the security and compliance of applications deployed on AWS.
 - It uses an **agent** installed in EC2 instances and assesses applications for *vulnerabilities* and *deviations* from best practices.
 - Organization can assess applications for vulnerabilities and **deviations** *from best practices*.
+- *allows you to check Amazon EC2 instances for security vulnarabilities by analyzing them against predefined security templaces*
 
 ### AWS Trusted Advisor
 - An **online resource** that helps to *reduce cost*, *increase performance* and *improve security* by **optimizing** your AWS environment.
@@ -413,6 +415,7 @@ AWS Scaling **horizontally**:
 
 ### AWS VPC
 - *allows a customer to mirror their corporate network within AWS with the same types of topographies*
+- *enables a company to create a private virtual network in AWS*
 
 ### VPC peering connection
 - If you have **more than one AWS account**, you can **peer** the VPCs across those accounts to create a <ins>file sharing network</ins>.
@@ -515,6 +518,7 @@ AWS Scaling **horizontally**:
 - Best practices for storing **large items** and attributes in DynamoDB:
 	- <ins>Compress</ins> large attribute values
 	- Store large attributes as objects in <ins>Amazon S3</ins>.
+ - *Encrypts data at rest by default*
 
 ### AWS Database SQL type
 - Amazon RDS
@@ -712,6 +716,7 @@ AWS Scaling **horizontally**:
 	- Managed **MySQL** databases
 	- **HA** storage
 	- **Load balancing**
+ - *Upgrade to EC2 to create a copy of your Lightsail instance in EC2*
 
 ### Amazon EC2
 - Types:
@@ -735,6 +740,7 @@ AWS Scaling **horizontally**:
 	- **Convertible RIs**: These provide a discount (up to 54% off On-Demand) and the <ins>capability to change</ins> the attributes of the RI as long as the exchange results in the creation of Reserved Instances of equal or greater value. Like Standard RIs, Convertible RIs are best suited for steady-state usage.
 	- **Scheduled RIs**: These are available to launch within the time windows you reserve. This option allows you to match your capacity reservation to a predictable recurring schedule that only requires a **fraction of a day, a week, or a month**.
 	- Payment options for reserverd instances include All Upfront, Partial Upfront, and NoUpfront.
+   	- *Dedicated host: allows you to use your existing per-socket, per-core, or per-VM software licenses*
 - With EC2 you are billed either by the **second**, for some Linux instances or by **hour**.
 - With "**Inter-Region VPC Peering**" a company can connect their EC2 instances in <ins>*one region*</ins> with EC2 instances in <ins>*another region*</ins> using **private IP** addresses.
 
@@ -999,3 +1005,4 @@ AWS Scaling **horizontally**:
 -  In IAM user access and secrert keys:
 	-  The customer is responsible for **rotating** keys.
 -  Which compute hosting model should be accounted for in the Total Cost of Ownership (TCO) when undertaking a cost analysis that allows physical isolation of a customer workload? **Dedicated Hosts**.
+- *Service quotas: specific to a region and will place default limits on the number of specific types of resources you can allocate*
