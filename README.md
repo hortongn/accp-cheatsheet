@@ -210,6 +210,7 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 	- it cannot be used as a boot volume and is good for throughput oriented storage for infrequently accessed data.
 - **Throughput Optimized (st1)**
 	- it is ideal for streaming workloads with fast throughput such as big data and data warehouses.
+- *snapshots for backups* 
 
 ### Amazon Elastic Load Balancer (ELB)
 - It distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, in multiple Availability Zones.
@@ -316,6 +317,7 @@ AWS Scaling **horizontally**:
 
 ### AWS Personal Health Dashboard
 - It provides **alerts** and **remediation** *guidance* when AWS is experiencing events that may *impact* you.
+- *shows scheduled maintenance activities*
 
 ### AWS X-Ray
 - It is a service that helps developers **analyze** and **debug** distributed applications.
@@ -511,6 +513,7 @@ AWS Scaling **horizontally**:
 - It is a service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics. If metrics are above or under a threshold, a CloudWatch Alert can be triggered
 - A repository for metrics and logs.
 - CloudWatch Dashboard is a single location that allows to access all resources metrics
+- *set up billing alarms*
 
 ### Amazon DynamoDB
 - It's a fully managed **NoSQL** database service. (schema-less)
@@ -713,6 +716,7 @@ AWS Scaling **horizontally**:
 	- Route 53.
 - *global instead of region based*
 - *provides location-based web personalization using geolocation headers*
+- *serve sites in native languages**
 
 ### Amazon Lightsail
 - It provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites, web applications, and databases in the cloud. Also it provides **preconfigured VPS** that inclouds **everything required to deploy** or create a **DB**.
@@ -735,6 +739,7 @@ AWS Scaling **horizontally**:
 	- **On-Demand**: It is the **most economical** option that will ensure **no interruptions**.
 	- **Spot**: They are good for **short term requirements** as they can be very economical. However, you may find that the instance is terminated if the spot market price moves.
 	- **Dedicated Instance**: They are EC2 instances that run on hardware dedicated to a single customer.
+          - *can use existing software licenses
 	- **Reserved**: They are good for **long-term**, static requirements as you must lock-in for **1 or 3 years** in return for a decent discount.
 - It offers SLAs of **95%** for *each region*.
 - EC2 **benefits** over using non-cloud servers:
@@ -749,6 +754,7 @@ AWS Scaling **horizontally**:
 - With EC2 you are billed either by the **second**, for some Linux instances or by **hour**.
 - With "**Inter-Region VPC Peering**" a company can connect their EC2 instances in <ins>*one region*</ins> with EC2 instances in <ins>*another region*</ins> using **private IP** addresses.
 - *restrict app access for different users: configure multiple ENIs with separate IP addresses and security groups*
+- *limited to 750 hours/month on free tier*
 
 ### AWS pricing policies
 - Pay-as-you-go
@@ -858,6 +864,7 @@ AWS Scaling **horizontally**:
 ### AWS Partner Network (APN)
 - It is a global community of partners that leverages programs, expertise, and resources to build, market, and sell customer offerings.
 - The **Consulting Partners** are focused on helping partners build successful AWS-based businesses to drive superb customer experiences.
+  - *help a company design, build, and manage their systems on AWS*
 - The **Technology Partners** provide software solutions that are either hosted on or integrated with the AWS platform.
 
 ### Five design principles for performance efficiency in the cloud
