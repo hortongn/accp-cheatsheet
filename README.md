@@ -240,6 +240,7 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 - *Load balancing with session affinity* can be used for **horizontal scaling** of **stateful** components.
 
 ### AWS Network Access Control List (ACL)
+- *A network _access control list_ (_ACL_) allows or denies specific inbound or outbound traffic at the subnet level.*
 - Stateless
 - By default: all in - all out
 - It operates on VPC subnet level
@@ -255,6 +256,10 @@ It helps avoid overprovisioning and underprovisioning, based on your utilization
 - Not used in S3
 - *Traffic is automatically allowed outbound to respond to an allowed inbound rule*
 - *rules are applied to only specify things allowed*
+- *restrict inboud requests to an EC2 instance while also automatically responding to those allowed requests without having to specifically allow*
+- *apply to both inbound and outbound traffic*
+- *can change group associated with an instance if the instance is in the running state*
+- *applied at the instance level*
 
 ### AWS Internet Gateway
 - Do not have `allow` or `deny` rules
@@ -743,6 +748,7 @@ AWS Scaling **horizontally**:
    	- *Dedicated host: allows you to use your existing per-socket, per-core, or per-VM software licenses*
 - With EC2 you are billed either by the **second**, for some Linux instances or by **hour**.
 - With "**Inter-Region VPC Peering**" a company can connect their EC2 instances in <ins>*one region*</ins> with EC2 instances in <ins>*another region*</ins> using **private IP** addresses.
+- *restrict app access for different users: configure multiple ENIs with separate IP addresses and security groups*
 
 ### AWS pricing policies
 - Pay-as-you-go
@@ -767,6 +773,7 @@ AWS Scaling **horizontally**:
 - You can use **AWS Artifact Reports** to download AWS security and compliance documents, such as <ins>AWS ISO certifications</ins>, <ins>Payment Card Industry (PCI)</ins>, and <ins>System and Organization Control (SOC) reports</ins>.
 - It is **online**, self-service portal that AWS provides to enable customers to *view reports* and, such as *PCI reports*, and *accept agreements*.
 - It is your **go-to**, central resource for compliance-related information that matters to you.
+- *FedRAMP*
 
 ### AWS Service Catalog
 - It can be used to <ins>create and manage a selection of AWS services</ins> that are approved for use on AWS.
