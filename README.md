@@ -136,6 +136,7 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [Amazon Macie](#amazon-macie)
  - [Amazon Kendra](#amazon-kendra)
  - [Amazon Polly](#amazon-polly)
+ - [AWS Systems Manager](#aws-systems-manager)
  - [AWS OpsWorks](#aws-opsworks)
  - [AWS Partner Network (APN)](#aws-partner-network-apn)
  - [Five design principles for performance efficiency in the cloud](#five-design-principles-for-performance-efficiency-in-the-cloud)
@@ -877,6 +878,18 @@ AWS Scaling **horizontally**:
 ### Amazon Polly
 - Amazon Polly is a fully-managed service that generates voice on demand, converting any text to an audio stream. Using deep learning technologies to convert articles, web pages, PDF documents, and other text-to-speech (TTS).*
 - *Deploy high-quality, natural-sounding human voices in dozens of languages*
+
+### AWS Systems Manager
+- *Manage nodes at scale on AWS and in multicloud and hybrid environments*
+- *Node Tools: Fleet, Session, Patch*
+- *Operations Tools: Explorer (reports on operational health), OpsCenter, Incident Manager*
+- *CM tools: Automation, Change Manager, Maintenance Windows*
+- *Application Tools: Application Manager, AppConfig (API, deploy changes across multiple targets), Parameter Store*
+- *run command*
+- *execute commands on servers???*
+- *Distributor: store and push software packages out to your AWS instances*
+- *Insights dashboard: provides automatically created display of operational data from throughout your account*
+- *resource groups for grouping of resources*
 
 ### AWS OpsWorks
 - It is a service that allows you to host your own Puppet Enterprise infrastructure.
