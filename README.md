@@ -1020,3 +1020,10 @@ AWS Scaling **horizontally**:
 	-  The customer is responsible for **rotating** keys.
 -  Which compute hosting model should be accounted for in the Total Cost of Ownership (TCO) when undertaking a cost analysis that allows physical isolation of a customer workload? **Dedicated Hosts**.
 - *Service quotas: specific to a region and will place default limits on the number of specific types of resources you can allocate*
+- *Billing*
+	- *what provided estimate of monthly usage?*
+	- *AWS Budgets: track user's incurred billing and projected billing*
+	  - *Types of tools:*
+	- *Cost budgets: used for planning what your ceiling for spending on a service will be*
+	- *cost explorer: overview of past usage and forecast future usage*
+	  - *x months back, x months forward*
