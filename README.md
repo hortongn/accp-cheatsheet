@@ -134,6 +134,8 @@ Another profitable resource is the [whitepaper Overview of Amazon Web Services](
  - [AWS CodePipeline ](#aws-codepipeline)
  - [Amazon GuardDuty](#amazon-guardduty)
  - [Amazon Macie](#amazon-macie)
+ - [Amazon Kendra](#amazon-kendra)
+ - [Amazon Polly](#amazon-polly)
  - [AWS OpsWorks](#aws-opsworks)
  - [AWS Partner Network (APN)](#aws-partner-network-apn)
  - [Five design principles for performance efficiency in the cloud](#five-design-principles-for-performance-efficiency-in-the-cloud)
@@ -864,6 +866,17 @@ AWS Scaling **horizontally**:
 
 ### Amazon Macie
 - It can be used to **detect users' personal credit card numbers** from data stored in Amazon **S3**.
+
+### Amazon Kendra
+- *Find answers faster with intelligent enterprise search powered by machine learning*
+- *Receive highly accurate answers with an easy-to-use enterprise search service powered by Machine Learning (ML).*
+- *Implement a unified search experience quickly across multiple structured and unstructured content repositories.*
+- *Use natural language processing (NLP) to get highly accurate answers without the need for machine learning (ML) expertise.*
+- *Fine-tune your search results based on content attributes, freshness, user behavior, and more.*
+
+### Amazon Polly
+- Amazon Polly is a fully-managed service that generates voice on demand, converting any text to an audio stream. Using deep learning technologies to convert articles, web pages, PDF documents, and other text-to-speech (TTS).*
+- *Deploy high-quality, natural-sounding human voices in dozens of languages*
 
 ### AWS OpsWorks
 - It is a service that allows you to host your own Puppet Enterprise infrastructure.
