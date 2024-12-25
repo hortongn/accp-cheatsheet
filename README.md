@@ -185,6 +185,11 @@ copying of objects across buckets in different AWS Regions.
 	- Metadata
 - **Object lifecycle management** can be used with objects so that they are stored cost effectively throughout their lifecycle. Objects can be transitioned to another storage class or expired. It enables you to **set rules** to **automatically transfer** objects between different storage classes at defined time intervals.
 - **Standard-IA** and **One Zone-IA** both have a minimum storage duration charge of **30** days
+- *has unlimited versioning of files*
+- *enable object versioning to prevent accidental deletes*
+- *enable default encryption using server side encryption to protect data*
+- *costs for data transfer to another region*
+- *costs for lifecycle transitions between storage classes*
 
 ### Six advantages of Amazon Cloud (Benefits)
 - Trade capital expense for variable expense.
@@ -542,7 +547,10 @@ AWS Scaling **horizontally**:
 -  It continuously **monitors** and **records** your <ins>AWS resource configurations</ins> and allows you to automate the evaluation of recorded configurations against desired configurations.
 -  It can be used to **keep track** of configuration changes on AWS resources, *keeping multiple date-stamped* versions in a reviewable history.
 -  It can be used to **retrieve configuration** changes made to AWS resources causing *operational issues*.
-
+- *identify the resources modified and who made the changes*
+- *rules enable governance by comparing configurations against baselines*
+- *get the configutration changes made that caused an operational issue*
+  
 ### AWS Shared Responsibility Model
 - AWS is responsible for:
 	- Software: Compute, storage, database, networking **infrastructures**.
